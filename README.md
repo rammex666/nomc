@@ -17,16 +17,20 @@ Recommanded extention in the .vscode folder for Visual Studio Code users.
 ```
 █───Project folder
 │
-│   main.js
+│   .clang-tidy
+│   .dockerignore
+│   .editorconfig
+│   .gitattributes
 │   .gitignore
-│   package-lock.json
-│   package.json
-│   LISENCE
-│   README.md
-│   anti-crash.js
-│   Config.js
-│   SECURITY.md
-│   Bot-setup-database.sql
+│   .luacheckrc
+│   .mailmap
+│   CMakeLists.txt
+│   CNAME
+│	COPYING.LESSER
+│	Dockerfile
+│	LICENSE.txt
+│	README.md
+│	minetest.conf.example
 │
 ├───.github
 │       Essentials files for the github repos.
@@ -34,29 +38,62 @@ Recommanded extention in the .vscode folder for Visual Studio Code users.
 ├───.vscode
 │       Recommend visual studio code extentions for coding in the repo.
 │
-├───Commands
+├───android
+│		Android related files.
+│
+├───builtin
+│		Unknown for now (needs to be lookt at)
+│
+├───client
+│		Client shaders and server list.
+│
+├───clientmods
+│		Example mods for NoMC.gg
+│
+├───cmake
+│		Cmake modules.
+│
+├───doc
+│		Documentation of the NoMC.gg
+│
+├───fonts
+│		Fonts files aka text type files.
+│
+├───games
+│		The "games" that are availeble on installation.
+│
+├───lib
+│		Libraries used on the NoMC.gg project.
+│
+├───misc
+│		Unknown for now (needs to be lookt at)
+│
+├───mods
+│		Mods directory for when they are installed.
+│
+├───po
+│		Unknown for now (needs to be lookt at)
+│
+├───src **Someone needs to work on this**
 │   │   
-│   ├───Giveaway       
-│   │       Giveaway related commands.
+│   ├───       
+│   │       
 │   │   
-│   ├───Information       
-│   │       Information related commands.
+│   ├───       
+│   │       
 │   │    
-│   ├───Modération       
-│   │       Moderation related commands.
+│   ├───       
+│   │       
 │   │
-│   └───Tickets
-│           Tickets related commands.
+│   └───
+│           
 │
-├───Components
-│       Bout de code utilisée dans plusieurs partie du bot
+├───texture
+│       This is where the default and custom texture packs are.
 │
-├───Events
-│       Discord related events.       
+├───util
+│       Unknown for now (needs to be lookt at)
 │
-├───Fonctions
-│       Fonctions fils required to run some commands.
-│
-└───Loaders
-        The loaders that load the events and commands files.
+└───worlds
+        This is where worlds that you create are stored.
 ```
