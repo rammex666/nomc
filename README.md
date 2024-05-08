@@ -5,8 +5,6 @@
 
 ## Recommanded to run/program the software
 
-Recommanded extention in the .vscode folder for Visual Studio Code users.
-
 ## Setting up your environnement
 
 # What's next for the project?
