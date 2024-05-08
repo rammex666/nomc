@@ -35,9 +35,6 @@ Recommanded extention in the .vscode folder for Visual Studio Code users.
 ├───.github
 │       Essentials files for the github repos.
 │
-├───.vscode
-│       Recommend visual studio code extentions for coding in the repo.
-│
 ├───android
 │		Android related files.
 │
